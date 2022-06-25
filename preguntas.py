@@ -130,7 +130,7 @@ def pregunta_04():
     gridsearchcv = GridSearchCV(
         estimator=estimator,
         param_grid=param_grid,
-        cv = 5  
+        cv = 5,
         scoring = "r2"  
     )
 
