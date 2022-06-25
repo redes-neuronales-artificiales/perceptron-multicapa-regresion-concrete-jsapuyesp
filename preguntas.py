@@ -82,7 +82,7 @@ def pregunta_03():
                 MinMaxScaler(),  
             ),
             (
-                "mlpregressor",
+                "MLPRegressor",
                 MLPRegressor,  
             ),
         ],
@@ -99,6 +99,7 @@ def pregunta_04():
 
     # Importe GridSearchCV
     from sklearn.model_selection import GridSearchCV
+    import numpy as np
     
 
     # Cree una malla de búsqueda para el objecto GridSearchCV
@@ -144,6 +145,7 @@ def pregunta_05():
 
     # Importe mean_squared_error
     from sklearn.metrics import mean_squared_error
+    import numpy as np
 
     # Cargue las variables.
     x_train, x_test, y_train, y_test = pregunta_02()
